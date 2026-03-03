@@ -4,7 +4,7 @@ import numpy as np
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(page_title="Comissão Angels (Final)", layout="wide")
-st.title("💸 Calculadora de Comissões (Correção Dias)")
+st.title("💸 Calculadora de Comissões (Angels)")
 
 # --- FUNÇÕES DE CÁLCULO (CORRIGIDAS) ---
 def calcular_dias_uteis(start_col, end_col):
