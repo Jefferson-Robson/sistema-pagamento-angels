@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
-st.set_page_config(page_title="Comissão Angels (Final)", layout="wide")
+st.set_page_config(page_title="Comissão Angels", layout="wide")
 st.title("💸 Calculadora de Comissões (Angels)")
 
 # --- FUNÇÕES DE CÁLCULO (CORRIGIDAS) ---
