@@ -14,7 +14,7 @@ uploaded_file = st.file_uploader("Carregue o arquivo CSV aqui", type="csv")
 if uploaded_file is not None:
     # Carregando os dados
     try:
-        df = pd.read_csv(uploaded_file, sep=';')
+        df = pd.read_csv(uploaded_file, sep=';', encoding='latin-1')
         
         # Convertendo colunas de data para o formato correto do Pandas
         # O formato identificado foi DD/MM/YYYY HH:MM:SS
